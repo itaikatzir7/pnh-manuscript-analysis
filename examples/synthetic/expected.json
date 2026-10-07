@@ -1,0 +1,40 @@
+{
+  "synthetic": true,
+  "frap": {
+    "bleach_time_s": 5,
+    "tau_s": 20,
+    "half_time_s": 13.862943611198906
+  },
+  "trypsin": {
+    "iteration_rates_AU_per_min": [
+      0.004,
+      0.006
+    ],
+    "mean_AU_per_min": 0.005,
+    "sample_sd_AU_per_min": 0.0014142135623730952
+  },
+  "droplets": {
+    "blank_count": 0,
+    "disk_count": 4,
+    "disk_centers_xy": [
+      [
+        32,
+        32
+      ],
+      [
+        96,
+        32
+      ],
+      [
+        32,
+        96
+      ],
+      [
+        96,
+        96
+      ]
+    ],
+    "radius_px": 6,
+    "note": "Ideal object truth, not an asserted detector result. Validate actual detections."
+  }
+}
