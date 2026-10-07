@@ -1,0 +1,49 @@
+--- original/frap_gui_app_v5_with_frame_finder.py
++++ scripts/frap/frap_gui_app_v5_with_frame_finder.py
+@@ -9,7 +9,7 @@
+ from typing import Dict, List, Optional, Tuple
+ 
+ # -------------------------
+-# Optional package installer
++# Explicit dependency check (no installation at startup)
+ # -------------------------
+ REQUIRED_PACKAGES = [
+     "pandas",
+@@ -22,12 +22,18 @@
+ 
+ 
+ def ensure_packages():
++    missing = []
+     for package in REQUIRED_PACKAGES:
+         try:
+             __import__(package)
+         except ImportError:
+-            print(f"Installing missing package: {package}")
+-            subprocess.check_call([sys.executable, "-m", "pip", "install", package])
++            missing.append(package)
++    if missing:
++        raise RuntimeError(
++            "Missing dependencies: " + ", ".join(missing)
++            + ". Install the repository requirements.txt with this Python interpreter "
++            "before starting the program. No packages were installed automatically."
++        )
+ 
+ 
+ ensure_packages()
+--- original/trypsin_assay_gui_v4.py
++++ scripts/trypsin/trypsin_assay_gui_v4.py
+@@ -1,11 +1,12 @@
+ """Trypsin Assay Analyzer 3.2
+ 
+-Run: python trypsin_assay_gui_v3_2.py
++Source filename: trypsin_assay_gui_v4.py; original internal version 3.2 retained.
++Run: python trypsin_assay_gui_v4.py
+ Dependencies: Python 3.10+, numpy, matplotlib, xlsxwriter; tkinter for the GUI.
+ Install dependencies: python -m pip install numpy matplotlib xlsxwriter
+ 
+ CLI example:
+-  python trypsin_assay_gui_v3_2.py --input source.xlsx --output analysis.xlsx
++  python trypsin_assay_gui_v4.py --input source.xlsx --output analysis.xlsx
+ 
+ Input: the same 18-well worksheet layout as v3.1 (three technical wells each
+ for oligoT control/trypsin, oligoC control/trypsin, oligoA control/trypsin).

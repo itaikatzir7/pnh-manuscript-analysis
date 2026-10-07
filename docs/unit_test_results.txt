@@ -1,0 +1,15 @@
+test_droplet_filename_temperature_only (test_core.ComputationalChecks.test_droplet_filename_temperature_only) ... ok
+test_frap_background_only_fallback (test_core.ComputationalChecks.test_frap_background_only_fallback) ... ok
+test_frap_csv_correction_and_normalization (test_core.ComputationalChecks.test_frap_csv_correction_and_normalization) ... ok
+test_frap_uses_extrema_not_first_post_point (test_core.ComputationalChecks.test_frap_uses_extrema_not_first_post_point) ... ok
+test_frap_zero_reference_denominator (test_core.ComputationalChecks.test_frap_zero_reference_denominator) ... ok
+test_trypsin_linear_slope_and_missing_points (test_core.ComputationalChecks.test_trypsin_linear_slope_and_missing_points) ... ok
+test_trypsin_manual_endpoint (test_core.ComputationalChecks.test_trypsin_manual_endpoint) ... ok
+test_trypsin_negative_rate_retained (test_core.ComputationalChecks.test_trypsin_negative_rate_retained) ... ok
+test_trypsin_no_plateau_fits_to_end (test_core.ComputationalChecks.test_trypsin_no_plateau_fits_to_end) ... ok
+test_trypsin_workbook_grouping_units_and_rates (test_core.ComputationalChecks.test_trypsin_workbook_grouping_units_and_rates) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.233s
+
+OK

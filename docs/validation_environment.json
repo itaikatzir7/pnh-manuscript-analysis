@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "os": "Windows",
+  "machine": "AMD64",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": null,
+    "matplotlib": null,
+    "openpyxl": "3.1.5",
+    "xlsxwriter": "3.2.9",
+    "Pillow": "12.3.0",
+    "tifffile": null,
+    "scikit-image": null
+  },
+  "note": "Environment for limited computational checks, not a full application lockfile."
+}
