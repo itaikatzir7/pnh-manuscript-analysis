@@ -1,0 +1,52 @@
+{
+  "status": "TEMPLATE_NOT_MANUSCRIPT_SETTINGS",
+  "analysis_id": null,
+  "figure_panel": null,
+  "program": null,
+  "source_sha256": null,
+  "environment_lockfile": null,
+  "inputs": [
+    {
+      "path": null,
+      "sha256": null,
+      "sample_id": null,
+      "independent_experiment_id": null,
+      "technical_replicate_id": null
+    }
+  ],
+  "settings": {
+    "frap": {
+      "roi_roles": null,
+      "time_unit": null,
+      "fit_mode": null,
+      "fit_window_s": null,
+      "normalization_definition": null,
+      "half_time_definition": null,
+      "aggregation_unit": null
+    },
+    "trypsin": {
+      "start_min": null,
+      "plateau_duration_min": null,
+      "plateau_absolute_AU": null,
+      "plateau_fraction": null,
+      "review_r2": null,
+      "manual_endpoints": null,
+      "well_mapping": null,
+      "rate_sign": null
+    },
+    "droplets": {
+      "full_preset_file": null,
+      "pixel_size_um": null,
+      "crop_or_roi": null,
+      "temperature_mapping": null,
+      "cooling_onset_frame": null,
+      "onset_rule": null
+    }
+  },
+  "exclusions": [],
+  "reference_outputs": [],
+  "observed_outputs": [],
+  "comparison_tolerance": null,
+  "reviewer": null,
+  "review_date": null
+}
