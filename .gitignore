@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+outputs/
+**/plots/
+data/private/
+*.log
+~$*
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+# Curated CSV, TIFF, XLSX and JSON files are intentionally not globally ignored.

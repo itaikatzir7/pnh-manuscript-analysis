@@ -1,0 +1,11 @@
+# Direct dependencies of the three selected programs. Not a tested lockfile.
+numpy
+pandas
+scipy
+matplotlib
+openpyxl
+xlsxwriter
+Pillow
+tifffile
+scikit-image
+# Tkinter is supplied by the Python distribution.

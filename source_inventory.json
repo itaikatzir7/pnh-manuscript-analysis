@@ -1,0 +1,38 @@
+{
+  "source": "Three user-selected local files, 2026-10-06",
+  "sources": [
+    {
+      "id": "frap",
+      "path": "scripts/frap/frap_gui_app_v5_with_frame_finder.py",
+      "required": true,
+      "original_filename": "frap_gui_app_v5_with_frame_finder.py",
+      "original_sha256": "95bd837ee47987d4257a10dea210dc54c394bb28025f3c25e92c2518563cb327",
+      "packaged_sha256": "43c79f19a1b86a403d9d2871d3bc9a1d16157168c0af4ed17dd20ce70ed0ff40",
+      "preserved_ast_sha256": "37cb175ff30e71d226c9d25de56e8e9beab9acf032d2f786abc7cd1c8eed2c59",
+      "allowed_change": "ensure_packages function only: fail with instructions, never install",
+      "manuscript_settings_verified": false
+    },
+    {
+      "id": "trypsin",
+      "path": "scripts/trypsin/trypsin_assay_gui_v4.py",
+      "required": true,
+      "original_filename": "trypsin_assay_gui_v4.py",
+      "original_sha256": "c87e37e55bea1b91b393741755dd978760d64f198c8e53dc377df448cc0e2d5b",
+      "packaged_sha256": "9a6f71bb9e1683ac0d643294dfe0d99afac09b312fbdcfaf63a06e9dd58ebc64",
+      "preserved_ast_sha256": "cc14b3b0041ae2af9221f753101b9c1247d88bf69ebdac3a8eaab83a0b00adad",
+      "allowed_change": "module docstring only: correct filename commands",
+      "manuscript_settings_verified": false
+    },
+    {
+      "id": "droplet_counting",
+      "path": "scripts/droplet_counting/droplet_counter_gui_v6_1_fast_preview.py",
+      "required": true,
+      "original_filename": "droplet_counter_gui_v6_1_fast_preview.py",
+      "original_sha256": "f124b147c6db613cb0efb2c69742647641ea37193a17ab4234f62ff999430852",
+      "packaged_sha256": "f124b147c6db613cb0efb2c69742647641ea37193a17ab4234f62ff999430852",
+      "preserved_ast_sha256": "6d28519af55bd082c7e3b0075a065aecaac6f5bc835db6ca923bc81871eaf5e5",
+      "allowed_change": "none",
+      "manuscript_settings_verified": false
+    }
+  ]
+}

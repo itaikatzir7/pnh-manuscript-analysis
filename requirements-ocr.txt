@@ -1,0 +1,3 @@
+-r requirements.txt
+pytesseract
+# Also requires the external Tesseract executable; optional only.

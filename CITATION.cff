@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Private-review software package. Confirm contributors, license and release metadata before citation."
+type: software
+title: "PNH manuscript analysis software"
+authors:
+  - family-names: "Katzir"
+    given-names: "Itai"
+# Provisional author list; confirm all software contributors before release.
+repository-code: "https://github.com/itaikatzir7/pnh-manuscript-analysis"
+# Add version, date-released, license and the archived release DOI.
+abstract: "Desktop Python programs for FRAP recovery, matched-control trypsin turbidity analysis and microscopy droplet counting, supporting peptide nucleic-acid hybrid condensate research."
